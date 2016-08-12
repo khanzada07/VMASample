@@ -1,0 +1,70 @@
+
+@(applicant: Applicant)
+
+@main("Applicant details"){
+
+  <h1>Details: @applicant.referenceNo</h1>
+  <div style="float:right"><a href="@routes.Application.list()">Applicatants List</a></div>
+  
+  <table>
+  	<thead>
+  		<tr>
+  			<th colspan="4">Basic Information</th>
+  		</tr>
+  	</thead>
+  	<tbody>
+  		<tr>
+  			<td><strong>Full name</strong></td>
+  			<td>@applicant.name</td>
+  			<td><strong>Email</strong></td>
+  			<td>@applicant.email</td>			
+  		</tr>
+  		<tr>
+  			<td><strong>Telephone</strong></td>
+  			<td>@applicant.telefone</td>
+  			<td><strong>Address</strong></td>
+  			<td>@applicant.address</td>			
+  		</tr>
+  	</tbody>
+  </table>
+    <table>
+  	<thead>
+  		<tr>
+  			<th>Personal Statement</th>
+  		</tr>
+  	</thead>
+  	<tbody>
+  		<tr>
+  			<td>@applicant.personalStatement</td>			
+  		</tr>
+  	</tbody>
+  </table>
+  <table>
+  	<thead>
+  		<tr>
+  			<th>Key Skills</th>
+  		</tr>
+  	</thead>
+  	<tbody>
+  		<tr>
+  			<td>@applicant.keySkills</td>			
+  		</tr>
+  	</tbody>
+  </table>
+  <table>
+  	<thead>
+  		<tr>
+  			<th>Work Experience</th>
+  		</tr>
+  	</thead>
+  	<tbody>
+  		<tr>
+  			<td>@applicant.experience</td>			
+  		</tr>
+  	</tbody>
+  </table>
+  
+  
+  
+
+}

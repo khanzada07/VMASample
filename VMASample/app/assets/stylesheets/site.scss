@@ -1,0 +1,119 @@
+@import '_colours';
+@import '_font_stack';
+@import '_measurements';
+
+body {
+	font-family: $Helvetica_Regular;
+	margin:80px 80px 100px 100px;
+}
+
+a{
+	text-decoration: none;
+}
+.invert{
+    -webkit-filter: invert(100%);
+}
+
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:$full_width;
+	color:#CCC;
+	background:#333;
+	padding:10px;
+}
+
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:$full_width;
+	color:$grey-1;
+	background:$grey-3;
+	padding:8px;
+}
+
+h1{
+	padding-top: 20px;
+	color: $fuschia;
+}
+
+#actions {
+    position: relative;
+}
+
+#actions #add {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#pagination {
+    position: relative;
+}
+
+#pagination ul {
+    position: absolute;
+    right: 0;
+   	border : 1px solid $grey-3;
+   	padding: 4px;
+    
+}
+
+#pagination ul .current a {
+    color: $grey-1;
+}
+
+#pagination ul li{
+	display: inline;
+	padding-left: 8px;
+	
+}
+
+
+table{
+	font-size: 14px;
+	margin-top: 30px;
+	width: $full_width;
+	border-collapse: collapse;
+}
+
+th, td {
+	
+	border: 1px solid $grey-3;
+	padding: 10px;
+	text-align:left;
+	vertical-align: bottom;	
+}
+
+tr:hover {background-color: $grey-4;}
+
+th {
+		font-weight: normal;
+	    background-color: $govuk-blue;
+	    color: white;
+}
+
+
+input[type=search] {
+                padding:8px 15px;
+                border:1px solid #dbdbdb;
+                width: 60%;
+}
+input[type=submit] {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+input[type=submit] {
+                background-color: $govuk-blue;
+                color:white;
+}
+
+#logo {
+	color: white;
+	font-weight: bold;}
