@@ -1,4 +1,4 @@
-This is your new Play application
+This is a sample Vacancy Management Application developed in Scala Playframework.
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+The wiki page in this repository explains how to compile and run this application.
