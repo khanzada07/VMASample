@@ -19,8 +19,8 @@ div#fixedheader {
 	top:0px;
 	left:0px;
 	width:$full_width;
-	color:#CCC;
-	background:#333;
+	color:$grey-2;
+	background:$black;
 	padding:10px;
 }
 
@@ -98,22 +98,22 @@ th {
 
 input[type=search] {
                 padding:8px 15px;
-                border:1px solid #dbdbdb;
+                border:1px solid $grey-3;
                 width: 60%;
 }
 input[type=submit] {
                 position:relative;
                 padding:6px 15px;
                 left:-8px;
-                border:2px solid #207cca;
-                background-color:#207cca;
-                color:#fafafa;
+                border:2px solid $govuk-blue;
+                background-color:$govuk-blue;
+                color: $white;
 }
 input[type=submit] {
                 background-color: $govuk-blue;
-                color:white;
+                color:$white;
 }
 
 #logo {
-	color: white;
+	color: $white;
 	font-weight: bold;}
